@@ -139,6 +139,7 @@ a {
 .hero .content-block {
     width: 40%;
     padding: 93px 172px 0 0;
+    flex: 1;
 }
 
 .hero .heading {
@@ -167,6 +168,7 @@ a {
     width: 60%;
     height: 631px;
     position: relative;
+    flex: 1;
 }
 
 .hero .image {
