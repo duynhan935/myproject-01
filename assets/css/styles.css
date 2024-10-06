@@ -23,9 +23,9 @@ body {
     background: #1ebfc1;
     box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
     min-width: 186px;
-    height: 68px;
     display: inline-block;
     text-align: center;
+    justify-content: center;
     padding: 20px 41px 21px;
     color: #fff;
     font-size: 1.8rem;
@@ -130,12 +130,14 @@ a {
 
 .hero .body {
     display: flex;
+    margin-bottom: 79px;
+    justify-content: space-between;
 }
 
 /* Hero left */
 
 .hero .content-block {
-    width: 43%;
+    width: 40%;
     padding: 93px 172px 0 0;
 }
 
@@ -155,4 +157,121 @@ a {
     margin-top: 52px;
 }
 
+.hero .btn {
+    margin-right: 50px;
+}
 
+/* Hero right */
+
+.hero .media-block {
+    width: 60%;
+    height: 631px;
+    position: relative;
+}
+
+.hero .image {
+    width: 100%;
+    height: 631px;
+    object-fit: cover;
+}
+
+.hero .courses {
+    position: absolute;
+    left: -40px;
+    top: 149px;
+    width: 157px;
+    height: 75px;
+    border-radius: 18px;
+    background: #fefefd;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+
+.hero .courses .content {
+    padding: 17px 25px 25px 18px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    line-height: 1.3;
+}
+
+.hero .courses .content .book {
+    position: relative;
+}
+
+.hero .courses .content .item {
+    position: absolute;
+    bottom: 8px;
+    left: 4px;
+}
+
+.hero .info {
+    color: #0d1111;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.hero .schedules {
+    width: 124px;
+    height: 132px;
+    border-radius: 24px;
+    background: #fff;
+    box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    bottom: 60px;
+    left: -55px;
+}
+
+.hero .schedules .content {
+    padding: 16px 25px 23px 25px;
+    text-align: center;
+}
+
+.hero .schedules .content .info {
+    margin-bottom: 16px;
+}
+
+.hero .schedules .content .bar-1 {
+    margin-bottom: 12px;
+}
+
+.hero .schedules .content .bar-2 {
+    margin-bottom: 10px;
+}
+
+.hero .schedules .content .bar-4 {
+    margin-top: 16px;
+    position: relative;
+}
+
+.hero .students {
+    width: 207px;
+    height: 90px;
+    border-radius: 24px;
+    background: #fefefd;
+    box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+    position: absolute;
+    right: 45px;
+    bottom: 41px;
+}
+
+.hero .students .content {
+    padding: 17px 35px;
+    align-items: center;
+}
+
+.hero .students .avatar {
+    display: flex;
+}
+
+.hero .students img {
+    width: 33px;
+    height: 33px;
+    border-radius: 33px;
+    object-fit: cover;
+    margin-left: -10px;
+    margin-top: 8px;
+}
+
+.hero .students img:first-of-type {
+    margin-left: 0;
+}
