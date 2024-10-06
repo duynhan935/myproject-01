@@ -1,0 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: "Poppins", sans-serif;
+}
+
+/* ============ Common =========== */
+
+.btn {
+    border-radius: 14px;
+    background: #1ebfc1;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.05);
+    min-width: 186px;
+    height: 68px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 41px 21px;
+    color: #fff;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.desc {
+    color: #9da6a5;
+    font-size: 1, 8rem;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.heading {
+    color: #0d1111;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.heading.lv1 {
+    font-size: 6.2rem;
+    line-height: 1.16;
+}
+
+.heading.lv2 {
+    font-size: 4.2rem;
+    line-height: 1.33;
+}
+
+.main-content {
+    width: 1170px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+:root {
+    --background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ============ Header=========== */
+
+.header {
+    background: var(--background-color);
+}
+
+.header .body {
+    display: flex;
+    align-items: center;
+    padding: 57px 0 8px;
+}
+
+.header .navbar {
+    margin-left: auto;
+    margin-right: 177px;
+}
+
+.header .navbar ul {
+    display: flex;
+    gap: 39px;
+}
+
+.header .navbar a {
+    color: #2f3a3b;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .navbar a:hover,
+.header .navbar li.active a {
+    font-weight: 600;
+    text-shadow: 1px 0 0 currentColor;
+}
+
+.header .action .sign-in {
+    color: #494949;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.header .action .sign-up {
+    color: #1ebfc1;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid #1ebfc1;
+    padding: 12px 23px 12px 24px;
+    margin-left: 24px;
+}
+
+/* ============ Hero =========== */
+
+.hero {
+    padding-top: 55px;
+}
+
+.hero .body {
+    display: flex;
+}
+
+/* Hero left */
+
+.hero .content-block {
+    width: 43%;
+    padding: 93px 172px 0 0;
+}
+
+.hero .heading {
+    min-width: 458px;
+    margin-top: 18px;
+}
+
+.hero .desc {
+    width: 374px;
+    margin-top: 46px;
+}
+
+.hero .cta-group {
+    display: flex;
+    align-items: center;
+    margin-top: 52px;
+}
+
+
